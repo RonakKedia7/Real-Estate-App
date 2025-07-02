@@ -7,7 +7,7 @@
 [![React Toastify](https://img.shields.io/badge/React--Toastify-20232A?style=for-the-badge&logo=react&logoColor=yellow)](https://fkhadra.github.io/react-toastify/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-A modern, responsive **Real Estate Web Application** built with **ReactJS** and styled using **Tailwind CSS**. This project features **Framer Motion animations**, **Web3 Forms** for contact submissions, and **React-Toastify** for user notifications — perfect for showcasing real estate properties with a professional UI.
+A modern, responsive **Real Estate Web Application** built with **ReactJS** and styled using **Tailwind CSS**. This project features **Framer Motion animations**, **Web3 Forms** for contact submissions, and **React-Toastify** for user notifications — perfect for showcasing real estate properties with a professional and elegant UI.
 
 ---
 
@@ -16,22 +16,24 @@ A modern, responsive **Real Estate Web Application** built with **ReactJS** and 
 - ⚛️ Built with **ReactJS**
 - 🎨 Styled using **Tailwind CSS**
 - 🎞️ Smooth animations with **Framer Motion**
-- 📬 Contact form powered by **Web3 Forms**
-- 🔔 Elegant notifications using **React-Toastify**
-- 📱 Fully responsive for all devices
-- 🌐 Clean, modern UI/UX
+- 📬 Functional contact form with **Web3 Forms**
+- 🔔 Toast alerts using **React-Toastify**
+- 📱 Fully **responsive** design
+- 💼 Professional UI/UX for real estate listings
 
 ---
 
-## 📁 Project Structure
+## 📂 Folder Structure
 
+```bash
 src/
-├── components/
-│ ├── Header.jsx # Hero section
-│ ├── About.jsx # Company info
-│ ├── Projects.jsx # Property showcase
-│ ├── Testimonails.jsx # Client feedback
-│ ├── Contact.jsx # Web3 form integration
-│ └── Footer.jsx # Footer content
-└── App.jsx # Main layout
-
+├── components/           📁 All UI components
+│   ├── Header.jsx        🧭 Hero banner / navigation
+│   ├── About.jsx         🏢 Company introduction section
+│   ├── Projects.jsx      🏘️ Property showcase grid
+│   ├── Testimonails.jsx  🗣️ Client testimonials
+│   ├── Contact.jsx       ✉️ Contact form with Web3 Forms
+│   └── Footer.jsx        🧾 Website footer
+│
+├── App.jsx               🔗 Root file composing all sections
+└── main.jsx              🚀 Entry point for rendering the app
